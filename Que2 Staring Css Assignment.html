@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que 2 Starting css</title>
+    <style>
+                /* Common styles for all paragraphs */
+                .paragraph {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        /* Unique styling for each paragraph using BEM convention */
+
+        /* Block: .paragraph */
+        /* Element: .paragraph__intro */
+        .paragraph__intro {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Block: .paragraph */
+        /* Element: .paragraph__content */
+        .paragraph__content {
+            font-style: italic;
+            color: #666;
+        }
+
+        /* Block: .paragraph */
+        /* Element: .paragraph__quote */
+        .paragraph__quote {
+            border-left: 2px solid #0077b6;
+            padding-left: 10px;
+            background-color: #f4f4f4;
+        }
+
+        /* Block: .paragraph */
+        /* Element: .paragraph__conclusion */
+        .paragraph__conclusion {
+            font-weight: bold;
+            font-size: 18px;
+            color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <p class="paragraph paragraph__intro">Introduction: This is the introductory paragraph.</p>
+    <p class="paragraph paragraph__content">Content: This is the main content paragraph.</p>
+    <p class="paragraph paragraph__quote">Quote: This is a quoted paragraph.</p>
+    <p class="paragraph paragraph__conclusion">Conclusion: This is the concluding paragraph.</p>
+</body>
+</html>
